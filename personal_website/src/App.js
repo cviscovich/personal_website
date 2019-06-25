@@ -23,20 +23,25 @@ class App extends Component {
                 {/* Title Section */}
                 <div class="row">
                     <div class="column" style={{ marginTop: "25px" }}>
-                        <h2> Alay Deliwala.</h2>
+                        <h2 style={{ marginBottom: "0px" }}> Alay Deliwala</h2>
+                        <p class="title" style={{ marginTop: "0px", marginBottom: "1.5%" }}> Problem Solver | Lifetime Student</p>
                     </div>
                 </div>
 
                 {/* About Me Section */}
                 <div class="row" >
-                    A rising senior pursing a B.S. in Computer Science at North Carolina State University.
-                    I am a board game enthusiast with a knack for graphic design and a passion for Computer
-                    Science. I love talking about music, watching tv shows and munching on candy. Feel free
-                    to reach out!
+                    <div class="column" >
+                        <p style={{ marginTop: "0px", marginBottom: "2.5%" }}>
+                            A rising senior pursing a B.S. in Computer Science at North Carolina State University.
+                            I am a board game enthusiast with a knack for graphic design and a passion for Computer
+                            Science. I love talking about music, watching tv shows and munching on candy. Feel free
+                            to reach out!
+                        </p>
+                    </div>
                 </div >
 
                 {/* Projects Section */}
-                <div class="row" style={{ marginTop: "3%" }}>
+                <div class="row" style={{ marginBottom: "3%" }}>
                     <div class="three columns">
                         <p style={{ textAlign: "left" }}>
                             <h4> Projects </h4>
@@ -50,7 +55,7 @@ class App extends Component {
                 </div>
 
                 {/* Experience Section */}
-                <div class="row" style={{ marginTop: "3%" }}>
+                <div class="row" style={{ marginBottom: "3%" }}>
                     <div class="three columns">
                         <p >
                             <h4> Experience </h4>
@@ -64,7 +69,7 @@ class App extends Component {
                 </div>
 
                 {/* Contact Me Section */}
-                <div class="row" style={{ marginTop: "3%" }}>
+                <div class="row" style={{ marginBottom: "3%" }}>
                     <div class="three columns">
                         <p>
                             <h4>Contact Me</h4>
@@ -78,7 +83,7 @@ class App extends Component {
                 </div>
 
                 {/* Footer Section */}
-                <div class="row" style={{ marginTop: "3%", textAlign: "center" }}>
+                <div class="row" style={{ textAlign: "center" }}>
                     <Footer />
                 </div>
 
