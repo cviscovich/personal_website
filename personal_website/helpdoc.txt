@@ -1,0 +1,8 @@
+
+the CSS I will be using
+
+http://getskeleton.com/#examples
+
+
+all icons
+https://fontawesome.com/v4.7.0/icons/
