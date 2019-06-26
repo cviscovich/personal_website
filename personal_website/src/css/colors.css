@@ -1,0 +1,73 @@
+.colorU { color: #F79432;}
+.colorN { color: #F37055;}
+.colorI{ color: #EF4D7B;}
+.colorV { color: #A166AB;}
+.colorE1 { color: #4F73B8;}
+.colorR { color: #1D99AE;}
+.colorS { color: #0CB49B;}
+.colorE2 {color: #6CBC82;}
+.back-colorU  { background-color: #F79432;}
+.back-colorN  { background-color: #F37055;}
+.back-colorI  { background-color: #EF4D7B;}
+.back-colorV  { background-color: #A166AB;}
+.back-colorE1 { background-color: #4F73B8;}
+.back-colorR  { background-color: #1D99AE;}
+.back-colorS  { background-color: #0CB49B;}
+.back-colorE2 { background-color: #6CBC82;}
+
+/* Edit all the highlighted text at once */
+.hover-back-colorU,
+.hover-back-colorN,
+.hover-back-colorI,
+.hover-back-colorV,
+.hover-back-colorE1,
+.hover-back-colorR,
+.hover-back-colorS,
+.hover-back-colorE2
+{ 
+    background-color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 5px;  
+    padding-left: 3px; 
+    padding-right: 3px; 
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+/* The colors for the highlight */
+.hover-back-colorU  { color: #F79432;}
+.hover-back-colorN  { color: #F37055;}
+.hover-back-colorI  { color: #EF4D7B;}
+.hover-back-colorV  { color: #A166AB;}
+.hover-back-colorE1 { color: #4F73B8;}
+.hover-back-colorR  { color: #1D99AE;}
+.hover-back-colorS  { color: #0CB49B;}
+.hover-back-colorE2 { color: #6CBC82;}
+
+/* Edit all the highlighted text (HOVER) at once */
+.hover-back-colorU:hover,
+.hover-back-colorN:hover,
+.hover-back-colorI:hover,
+.hover-back-colorV:hover,
+.hover-back-colorE1:hover,
+.hover-back-colorR:hover,
+.hover-back-colorS:hover,
+.hover-back-colorE2:hover
+{ 
+    border-radius: 5px; 
+    color:#FFFFFF; 
+    padding-left: 3px; 
+    padding-right: 3px; 
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+/* The colors for the highlight */
+.hover-back-colorU:hover  { background-color: #F79432;}
+.hover-back-colorN:hover  { background-color: #F37055;}
+.hover-back-colorI:hover  { background-color: #EF4D7B;}
+.hover-back-colorV:hover  { background-color: #A166AB;}
+.hover-back-colorE1:hover { background-color: #4F73B8;}
+.hover-back-colorR:hover  { background-color: #1D99AE;}
+.hover-back-colorS:hover  { background-color: #0CB49B;}
+.hover-back-colorE2:hover { background-color: #6CBC82;}

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import '../css/skeleton.css';
 import '../css/normalize.css';
-import { link } from 'fs';
 
 const buttonStyle = {
     padding: "1%",
