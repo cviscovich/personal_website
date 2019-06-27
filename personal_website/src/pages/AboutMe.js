@@ -10,9 +10,9 @@ class AboutMe extends Component {
             <div class="row">
                     <div class="column">
                         <p style={{ marginBottom: "2%"}}>
-                        Hey! I am a board game enthusiast with a knack for graphic design and a 
+                        Hey! I am a board game enthusiast with a knack for <span class="hover-back-colorI">graphic design</span> and a 
                         passion for computer science. I am currently a rising senior pursuing a 
-                        B.S in Computer Science at <span class="hover-back-colorU"> NC State University</span> in Raleigh, NC. I am currently 
+                        B.S in Computer Science at <span class="hover-back-colorI">NC State University</span> in Raleigh, NC. I am currently 
                         a Software Development intern at Salesforce.
                         </p>
                     </div>

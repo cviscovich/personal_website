@@ -30,10 +30,9 @@ class Experience extends Component {
                             with amazing people and develop software that will help solve
                             our hardest problems!
                     </p>
-                    <a class="button button-primary" href="https://github.com/alaydeliwala" style={{ margin: "0px 5px 0px 0px" }}>Visit My GitHub</a>
-                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" }}>AR Project (Beta)</a>
+                    <a class="button button-primary" href="https://github.com/alaydeliwala" style={{ margin: "0px 5px 0px 0px" }}>View My Resume</a>
                     
-                    <p style={{ textAlign: "left", marginBottom:".5%", marginTop:"1%"}}>
+                    <p style={{ textAlign: "left", marginBottom:".5%", marginTop:"2.75%"}}>
                         At NC State, I have actively participated and led different
                          student organizations. During the 2018-2019 school year, I
                          served as the Director for a colligate South Asian A Cappella
@@ -42,7 +41,9 @@ class Experience extends Component {
                          school year, I have been selected as a director for Oak City
                          Revolution 2020. Click any of the links below to see highlight
                          reels and more info!
-                        </p>
+                    </p>
+                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" }}>SS 2019 Highlights</a>
+                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" }}>EKTAA at NC State</a>
                 </div>
             </div>
         );
