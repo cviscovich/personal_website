@@ -31,7 +31,8 @@
     padding-left: 3px; 
     padding-right: 3px; 
     padding-bottom: 2px;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 /* The colors for the highlight */
@@ -59,7 +60,8 @@
     padding-left: 3px; 
     padding-right: 3px; 
     padding-bottom: 2px;
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 /* The colors for the highlight */
@@ -71,3 +73,9 @@
 .hover-back-colorR:hover  { background-color: #1D99AE;}
 .hover-back-colorS:hover  { background-color: #0CB49B;}
 .hover-back-colorE2:hover { background-color: #6CBC82;}
+
+a.clean{
+    /* Clean up the default CSS Styling for links */
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}

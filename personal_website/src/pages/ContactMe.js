@@ -4,13 +4,13 @@ import '../css/skeleton.css';
 import '../css/normalize.css';
 
 const colorU = "#F79432";
-const colorN = { color: "#F37055", };
-const colorI = { color: "#EF4D7B", };
-const colorV = { color: "#A166AB", };
-const colorE1 = { color: "#4F73B8", };
-const colorR = { color: "#1D99AE", };
-const colorS = { color: "#0CB49B", };
-const colorE2 = { color: "#6CBC82", };
+const colorN = "#F37055";
+const colorI = "#EF4D7B";
+// const colorV = "#A166AB"; 
+// const colorE1 = "#4F73B8";
+// const colorR = "#1D99AE";
+// const colorS = "#0CB49B";
+// const colorE2 = "#6CBC82";
 
 class ContactMe extends Component {
     render() {
@@ -25,8 +25,12 @@ class ContactMe extends Component {
                     TV shows and munching on candy. I am a social person. Or that’s 
                     what I tell myself. Either way, feel free to reach out!
                     </p>
-                    <a class="button button-primary" href="#" style={{margin:"0px 5px 0px 0px", backgroundColor:"#1D99AE" }}>Email Me!</a>
-                    <a class="button button-primary" href="#" style={{margin:"0px 5px 0px 0px"}}> Currently listening to...</a>
+                    <a class="button button-primary" href="mailto:ahdeliwala@gmail.com" style={{margin:"0px 5px 0px 0px", backgroundColor:colorI, borderColor:colorI}}>
+                    <i class="fas fa-envelope"></i> Email Me</a>
+                    <a class="button button-primary" href="https://www.linkedin.com/in/alay-deliwala-21876b129/" style={{margin:"0px 5px 0px 0px", backgroundColor:colorN, borderColor:colorN}}>
+                    <i class="fab fa-linkedin"></i> My Linkedin</a>
+                    <a class="button button-primary" href="https://itunes.apple.com/profile/alaydeliwala" style={{margin:"0px 5px 0px 0px", backgroundColor:colorU, borderColor:colorU}}> 
+                    <i class="fab fa-apple"></i> Currently listening to...</a>
                 </div>
             </div>
         );

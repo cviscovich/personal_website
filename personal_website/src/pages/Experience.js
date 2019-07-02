@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import '../css/skeleton.css';
 import '../css/normalize.css';
 
-const colorU = { color: "#F79432", };
-const colorN = { color: "#F37055", };
-const colorI = { color: "#EF4D7B", };
-const colorV = { color: "#A166AB", };
-const colorE1 = { color: "#4F73B8", };
-const colorR = { color: "#1D99AE", };
-const colorS = { color: "#0CB49B", };
-const colorE2 = { color: "#6CBC82", };
+// const colorU = "#F79432";
+// const colorN = "#F37055";
+// const colorI = "#EF4D7B";
+const colorV = "#A166AB"; 
+const colorE1 = "#4F73B8";
+const colorR = "#1D99AE";
+// const colorS = "#0CB49B";
+// const colorE2 = "#6CBC82";
 
 class Experience extends Component {
     render() {
@@ -21,16 +21,15 @@ class Experience extends Component {
                 </div>
                 <div class="nine columns">
                     <p style={{ textAlign: "left", marginBottom:".5%"}}>
-                            Over the course of my undergraduate career at NC State,
-                            I have had the incredible opportunity to be intern with
-                            a couple of great companies and amazing teams. I spent
-                            2 summers interning as a Software Developer at Optum and
-                            spend the school year working as a graphic designer for
-                            RED-i at NC State. In the future I hope to continue working
-                            with amazing people and develop software that will help solve
-                            our hardest problems!
+                    Over the course of my undergraduate career at NC State, I have had the incredible
+                     opportunity to intern with a couple of great companies and amazing teams. I have
+                     gained invaluable experience and can’t wait to start working full-time. My focus
+                     for the future is learning how to use my passion for CS to help with issues of
+                     social and economic justice. I believe that we have many amazing technologies
+                     available to us and we have only scratched the surface of what can be done! 
                     </p>
-                    <a class="button button-primary" href="https://github.com/alaydeliwala" style={{ margin: "0px 5px 0px 0px" }}>View My Resume</a>
+                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" , backgroundColor:colorR, borderColor:colorR}}>
+                    <i class="fas fa-file" aria-hidden="true"/> View My Resume</a>
                     
                     <p style={{ textAlign: "left", marginBottom:".5%", marginTop:"2.75%"}}>
                         At NC State, I have actively participated and led different
@@ -42,8 +41,10 @@ class Experience extends Component {
                          Revolution 2020. Click any of the links below to see highlight
                          reels and more info!
                     </p>
-                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" }}>SS 2019 Highlights</a>
-                    <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" }}>EKTAA at NC State</a>
+                    <a class="button button-primary" href="https://www.facebook.com/sangeetsaagardsi/videos/390614471749032/" style={{ margin: "0px 5px 0px 0px" , backgroundColor:colorE1, borderColor:colorE1}}>
+                    <i class="fas fa-microphone-alt" aria-hidden="true"/> SS 2019 Highlights</a>
+                    <a class="button button-primary" href="https://www.facebook.com/ncsuektaa/" style={{ margin: "0px 5px 0px 0px" , backgroundColor:colorV, borderColor:colorV}}>
+                    <i class="fas fa-globe-asia" aria-hidden="true"/> EKTAA at NC State</a>
                 </div>
             </div>
         );
