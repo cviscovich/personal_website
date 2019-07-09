@@ -1,6 +1,6 @@
 # Usage
 
-To run this application locally use the following commands
+To run this application locally, clone the repository and run the following commands:
 ```shell
 cd personal_website
 npm install
@@ -31,7 +31,7 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 
-Learn More
+### Learn More
 
 You can learn more in the Create React App documentation (https://facebook.github.io/create-react-app/docs/getting-started).
 
