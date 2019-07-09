@@ -14,6 +14,7 @@ const colorS = "#0CB49B";
 const colorE2 = "#6CBC82";
 
 class Skills extends Component {
+    
     render() {
         return (
             <div class="row" style={{ marginBottom: "2%" }}>
@@ -21,20 +22,14 @@ class Skills extends Component {
                             <h4 class="sideSubHeadings"> Skills </h4>
                     </div>
                     <div class="nine columns">
-                        <p style={{ marginBottom: ".5%" }}>
-                        One of my favorite hobbies is working on side projects.
-                         Whether it’s working with a different language,
-                         new technology or on a new design,
-                         I am always looking for my next project and eager to learn
-                         something new. Currently, I am trying to use AR.js to create
-                         augmented reality content that can be delivered through the web
-                         using Markers. Click the links below to check out some of my work!
+                        <p>
+                            <span> Java </span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star checked"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
                         </p>
-                        <a class="button button-primary" href="https://github.com/alaydeliwala" style={{margin:"0px 5px 0px 0px", backgroundColor:colorE2, borderColor:colorE2}}>
-                            <i class="fab fa-github" aria-hidden="true"/> Visit My GitHub
-                        </a>
-                        {/* <a class="button button-primary" href="#" style={{margin:"0px 5px 0px 0px"}}>
-                            <i class="fas fa-vr-cardboard" aria-hidden="true"></i> AR Project (Beta)</a> */}
                     </div>
                 </div>
         );

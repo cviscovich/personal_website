@@ -6,6 +6,7 @@ import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import ContactMe from './pages/ContactMe';
+import Skills from './pages/Skills';
 
 // GitHub Universe Colors
 // const colorU = "#F79432";
@@ -37,6 +38,7 @@ class App extends Component {
                 <Experience/>
 
                 {/* TODO: Add A skills section with stars */}
+                {/* <Skills/> */}
 
                 {/* Contact Me Section */}
                 <ContactMe/>
