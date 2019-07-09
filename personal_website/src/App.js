@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/skeleton.css';
 import './css/normalize.css';
-import Footer from './pages/Footer'
 import Header from './pages/Header'
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects';
@@ -41,10 +40,6 @@ class App extends Component {
 
                 {/* Contact Me Section */}
                 <ContactMe/>
-
-                {/* Footer Section */}
-                {/* <Footer /> */}
-
 
             </div >
         );
