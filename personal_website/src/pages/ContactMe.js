@@ -20,10 +20,10 @@ class ContactMe extends Component {
                         <h4 class="sideSubHeadings" >Contact Me</h4>
                 </div>
                 <div class="nine columns">
-                    <p style={{ textAlign: "left", marginBottom:".5%"}}>
+                    <p style={{ textAlign: "justify", marginBottom:".5%"}}>
                     I love listening to music, playing new board games, watching 
-                    TV shows and munching on candy. I am a social person. Or that’s 
-                    what I tell myself. Either way, feel free to reach out!
+                    TV shows and munching on candy. I am a social person...or at 
+                    least that’s what I tell myself.
                     </p>
                     <a class="button button-primary" href="mailto:ahdeliwala@gmail.com" style={{margin:"0px 5px 0px 0px", backgroundColor:colorI, borderColor:colorI}}>
                     <i class="fas fa-envelope"></i> Email Me</a>

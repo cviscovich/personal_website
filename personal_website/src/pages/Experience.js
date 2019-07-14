@@ -20,7 +20,7 @@ class Experience extends Component {
                     <h4 class="sideSubHeadings"> Experience </h4>
                 </div>
                 <div class="nine columns">
-                    <p style={{ textAlign: "left", marginBottom:".5%"}}>
+                    <p style={{ marginBottom:".5%"}}>
                     Over the course of my undergraduate career at NC State, I have had the incredible
                      opportunity to intern with a couple of great companies and amazing teams. I have
                      gained invaluable experience and can’t wait to start working full-time. My focus
@@ -31,7 +31,7 @@ class Experience extends Component {
                     <a class="button button-primary" href="#" style={{ margin: "0px 5px 0px 0px" , backgroundColor:colorR, borderColor:colorR}}>
                     <i class="fas fa-file" aria-hidden="true"/> View My Resume</a>
                     
-                    <p style={{ textAlign: "left", marginBottom:".5%", marginTop:"2.75%"}}>
+                    <p style={{marginBottom:".5%", marginTop:"2.75%"}}>
                         At NC State, I have actively participated and led different
                          student organizations. During the 2018-2019 school year, I
                          served as the Director for a colligate South Asian A Cappella
