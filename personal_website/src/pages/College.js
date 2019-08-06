@@ -43,6 +43,6 @@ class College extends Component {
     }
 }
 
-export default Projects;
+export default College;
 
 

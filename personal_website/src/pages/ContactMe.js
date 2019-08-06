@@ -20,11 +20,13 @@ class ContactMe extends Component {
                 <div class="nine columns">
                     <a class="button button-primary" href="mailto:cvisco@vt.edu" style={{margin:"0px 5px 0px 0px", backgroundColor:colorV, borderColor:colorV}}>
                     <i class="fas fa-envelope"></i> Email Me</a>
-                    <a class="button button-primary" href="https://www.linkedin.com/in/caroline-viscovich-09a048156/" style={{margin:"0px 5px 0px 0px", backgroundColor:colorI, borderColor:colorI}}>
+                    <a class="button button-primary" href="https://www.facebook.com/caroline.viscovich" style={{margin:"0px 5px 0px 0px", backgroundColor:colorI, borderColor:colorI}}>
+                    <i class="fas fa-facebook"></i> My Facebook</a>
+                    <a class="button button-primary" href="https://www.linkedin.com/in/caroline-viscovich-09a048156/" style={{margin:"0px 5px 0px 0px", backgroundColor:colorS, borderColor:colorS}}>
                     <i class="fab fa-linkedin"></i> My Linkedin</a>
-                    <a class="button button-primary" href="https://open.spotify.com/user/visc0?si=x0AuDmfwRTO93k29jsyWQw" style={{margin:"0px 5px 0px 0px", backgroundColor:colorS, borderColor:colorS}}> 
-                    <i class="fab fa-apple"></i> My Spotify</a>
-                </div>
+                    <a class="button button-primary" href="https://open.spotify.com/user/visc0?si=x0AuDmfwRTO93k29jsyWQw" style={{margin:"0px 5px 0px 0px", backgroundColor:colorC, borderColor:colorC}}> 
+                    <i class="fab fa-spotify"></i> My Spotify</a>
+                </div>li
             </div>
         );
     }

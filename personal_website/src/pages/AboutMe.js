@@ -4,6 +4,12 @@ import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/colors.css';
 
+const colorV = "#E3E834";
+const colorI = "#B7F935";
+const colorS = "#57FB5E";
+const colorC = "#34FB96"; 
+const colorO = "#34FBDE";
+
 class AboutMe extends Component {
     render() {
         return (
@@ -16,7 +22,7 @@ class AboutMe extends Component {
                          <span class="hover-back-colorV1"> <a class="clean" href="https://www.vt.edu/">Virginia Tech</a></span> 
                          in Blacksburg, VA. I am pursuing a B.S. in 
                          <span class="hover-back-colorI1"> <a class="clean" href="https://www.vt.edu/">Computational Modeling and Data Analytics</a></span>
-                         , with minors in Computer Science and Mathematics. Besides writing meaningful code, I also like to listen to music, and hang out with my friends. 
+                         , with minors in Computer Science and Mathematics. Besides writing meaningful code, I also like to exercise, listen to music, and hang out with my friends. 
                         </p>
                     </div>
                     {/* <div class="one-third column">
