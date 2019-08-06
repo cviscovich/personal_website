@@ -4,11 +4,15 @@ import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/colors.css';
 
-const colorV = "#E3E834";
-const colorI = "#B7F935";
-const colorS = "#57FB5E";
-const colorC = "#34FB96"; 
-const colorO = "#34FBDE";
+const colorV = "#05B0E4";
+const colorI = "#0A7CE3";
+const colorS = "#0F4CE3"; 
+const colorC = "#151EE2";
+const colorO = "#411AE2";
+const colorV2 = "#741FE1";
+const colorI2 = "#A424E0";
+const colorC2 = "#D129E0";
+const colorH = "#DF2EC2";
 
 class Projects extends Component {
     render() {
@@ -24,7 +28,7 @@ class Projects extends Component {
                          I am always looking to learn something new.
                          Click the link below to check out some of my work!
                         </p>
-                        <a class="button button-primary" href="https://github.com/cviscovich" style={{margin:"0px 5px 0px 0px", backgroundColor:colorS, borderColor:colorS}}>
+                        <a class="button button-primary" href="https://github.com/cviscovich" style={{margin:"0px 5px 0px 0px", backgroundColor:colorO, borderColor:colorO}}>
                             <i class="fab fa-github" aria-hidden="true"/> Visit My GitHub
                         </a>
                         {/* <a class="button button-primary" href="#" style={{margin:"0px 5px 0px 0px"}}>

@@ -4,11 +4,16 @@ import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/colors.css';
 
-const colorV = "#E3E834";
-const colorI = "#B7F935";
-const colorS = "#57FB5E";
-const colorC = "#34FB96"; 
-const colorO = "#34FBDE";
+const colorV = "#05B0E4";
+const colorI = "#0A7CE3";
+const colorS = "#0F4CE3"; 
+const colorC = "#151EE2";
+const colorO = "#411AE2";
+const colorV2 = "#741FE1";
+const colorI2 = "#A424E0";
+const colorC2 = "#D129E0";
+const colorH = "#DF2EC2";
+
 
 class College extends Component {
     render() {
@@ -21,7 +26,7 @@ class College extends Component {
                         <p style={{ marginBottom: ".5%" }}>
                         There is nothing that I love more than being a student at Virginia Tech. The main reason that
                          I have cultivated such a warm home in Blacksburg, VA is due to my campus involvement.
-                         I am the Co-President Captain, and Social Media Representative of the Club Soccer Team at Virginia Tech, where we play
+                         I am the Co-President, Captain, and Social Media Representative of the Club Soccer Team at Virginia Tech, where we play
                          competitively at the Divisional, Regional, and National level. (Check out our website I created below!)
                          I am a CMDA Ambassador for the Academy of Integrated Science, which allows me to boast about my
                          incredible major to prospective CMDA students that are considering attending Virginia Tech.

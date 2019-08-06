@@ -40,8 +40,8 @@
 }
 
 /* The colors for the highlight */
-.hover-back-colorV1  { color: #E3E834;}
-.hover-back-colorI2  { color: #B7F935;}
+.hover-back-colorV1  { color: #800000;}
+.hover-back-colorI1  { color: #cc5500;}
 .hover-back-colorS  { color: #57FB5E;}
 .hover-back-colorC1  { color: #34FB96;}
 .hover-back-colorO { color: #34FBDE;}
@@ -73,8 +73,8 @@
 }
 
 /* The colors for the highlight */
-.hover-back-colorV1:hover  { background-color: #E3E834;}
-.hover-back-colorI1:hover  { background-color: #B7F935;}
+.hover-back-colorV1:hover  { background-color: #800000;}
+.hover-back-colorI1:hover  { background-color: #cc5500;}
 .hover-back-colorS:hover  { background-color: #57FB5E;}
 .hover-back-colorC1:hover  { background-color: #34FB96;}
 .hover-back-colorO:hover { background-color: #34FBDE;}
