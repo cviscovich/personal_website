@@ -3,31 +3,34 @@ import React, { Component } from 'react';
 import '../css/skeleton.css';
 import '../css/normalize.css';
 
-const colorU = { color: "#F79432",};
-const colorN = { color: "#F37055", };
-const colorI = { color: "#EF4D7B", };
-const colorV = { color: "#A166AB", };
-const colorE1 = { color: "#4F73B8", };
-const colorR = { color: "#1D99AE", };
-const colorS = { color: "#0CB49B", };
-const colorE2 = {color: "#6CBC82",};
+
+const colorV1 = { color: "#E3E834", };
+const colorI1 = { color: "#B7F935", };
+const colorS = { color: "#57FB5E", };
+const colorC1 = { color: "#34FB96", }; 
+const colorO = { color: "#34FBDE", };
+const colorV2 = { color: "#35FBFA", };
+const colorI2 = { color: "#35F6FB", };
+const colorC2 = { color: "#35EAFB", };
+const colorH = { color: "#35DEFA", }; 
 
 class Header extends Component {
     render() {
         return (
             < div class="row" style={{ marginTop: "3%"}} >
                     <div class="column">
-                        <h2 style={{ marginBottom: "0px" }}> Alay
-                        <span style={colorU}> D</span>
-                        <span style={colorN}>e</span>
-                        <span style={colorI}>l</span>
-                        <span style={colorV}>i</span>
-                        <span style={colorE1}>w</span>
-                        <span style={colorR}>a</span>
-                        <span style={colorS}>l</span>
-                        <span style={colorE2}>a</span>
+                        <h2 style={{ marginBottom: "0px" }}> Caroline
+                        <span style={colorV1}> V</span>
+                        <span style={colorI1}>i</span>
+                        <span style={colorS}>s</span>
+                        <span style={colorC1}>c</span>
+                        <span style={colorO}>o</span>
+                        <span style={colorV2}>v</span>
+                        <span style={colorI2}>i</span>
+                        <span style={colorC2}>c</span>
+                        <span style={colorH}>h</span>
                         </h2>
-                        <p class="header" style={{ marginTop: "0px", marginBottom: "1.5%" }}> Problem Solver | Lifetime Student</p>
+                        <p class="header" style={{ marginTop: "0px", marginBottom: "1.5%" }}> Student</p>
                     </div>
             </div >
         );

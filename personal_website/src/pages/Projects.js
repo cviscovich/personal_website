@@ -4,14 +4,11 @@ import '../css/skeleton.css';
 import '../css/normalize.css';
 import '../css/colors.css';
 
-// const colorU = "#F79432";
-// const colorN = "#F37055";
-// const colorI = "#EF4D7B";
-// const colorV = "#A166AB"; 
-// const colorE1 = "#4F73B8";
-// const colorR = "#1D99AE";
-// const colorS = "#0CB49B";
-const colorE2 = "#6CBC82";
+const colorV = "#E3E834";
+const colorI = "#B7F935";
+const colorS = "#57FB5E";
+const colorC = "#34FB96"; 
+const colorO = "#34FBDE";
 
 class Projects extends Component {
     render() {
@@ -22,15 +19,12 @@ class Projects extends Component {
                     </div>
                     <div class="nine columns">
                         <p style={{ marginBottom: ".5%" }}>
-                        One of my favorite hobbies is working on side projects.
-                         Whether it’s working with a different language,
-                         new technology or on a new design,
-                         I am always looking for my next project and eager to learn
-                         something new. Currently, I am trying to use AR.js to create
-                         augmented reality content that can be delivered through the web
-                         using Markers. Click the links below to check out some of my work!
+                        One of the best ways to grow as a software developer is to persue personal projects.
+                         Whether it's working with a new programming language, new technology, or new design, 
+                         I am always looking to learn something new.
+                         Click the link below to check out some of my work!
                         </p>
-                        <a class="button button-primary" href="https://github.com/alaydeliwala" style={{margin:"0px 5px 0px 0px", backgroundColor:colorE2, borderColor:colorE2}}>
+                        <a class="button button-primary" href="https://github.com/cviscovich" style={{margin:"0px 5px 0px 0px", backgroundColor:colorS, borderColor:colorS}}>
                             <i class="fab fa-github" aria-hidden="true"/> Visit My GitHub
                         </a>
                         {/* <a class="button button-primary" href="#" style={{margin:"0px 5px 0px 0px"}}>
