@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alaydeliwala.github.io/personal-website/",
+  "homepage": "https://cviscovich.github.io/personal-website/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
