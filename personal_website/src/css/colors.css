@@ -1,27 +1,33 @@
-.colorV1 { color: #E3E834;}
-.colorI1 { color: #B7F935;}
-.colorS{ color: #57FB5E;}
-.colorC1 { color: #34FB96;}
-.colorO { color: #34FBDE;}
-.colorV2 { color: #35FBFA;}
-.colorI2 { color: #35F6FB;}
-.colorC2 {color: #35EAFB;}
-.colorH {color: #35DEFA;}
-.back-colorV1  { background-color: #E3E834;}
-.back-colorI1  { background-color: #B7F935;}
-.back-colorS  { background-color: #57FB5E;}
-.back-colorC1  { background-color: #34FB96;}
-.back-colorO { background-color: #34FBDE;}
-.back-colorV2  { background-color: #35FBFA;}
-.back-colorI2  { background-color: #35F6FB;}
-.back-colorC2 { background-color: #35EAFB;}
-.back-colorH { background-color: #35DEFA;}
+.color-mar { color: #800000;}
+.color-org { color: #cc5500;}
+.colorV { color: #05B0E4;}
+.colorI { color: #0A7CE3;}
+.colorS{ color: #0F4CE3;}
+.colorC { color: #151EE2;}
+.colorO { color: #411AE2;}
+.colorV2 { color: #741FE1;}
+.colorI2 { color: #A424E0;}
+.colorC2 {color: #D129E0;}
+.colorH {color: #DF2EC2;}
+.back-color-mar {background-color: #800000;}
+.back-color-org {background-color: #cc5500;}
+.back-colorV  { background-color: #05B0E4;}
+.back-colorI  { background-color: #0A7CE3;}
+.back-colorS  { background-color: #0F4CE3;}
+.back-colorC  { background-color: #151EE2;}
+.back-colorO { background-color: #411AE2;}
+.back-colorV2  { background-color: #741FE1;}
+.back-colorI2  { background-color: #A424E0;}
+.back-colorC2 { background-color: #D129E0;}
+.back-colorH { background-color: #DF2EC2;}
 
 /* Edit all the highlighted text at once */
-.hover-back-colorV1,
-.hover-back-colorI1,
+.hover-back-color-mar,
+.hover-back-color-org,
+.hover-back-colorV,
+.hover-back-colorI,
 .hover-back-colorS,
-.hover-back-colorC1,
+.hover-back-colorC,
 .hover-back-colorO,
 .hover-back-colorV2,
 .hover-back-colorI2,
@@ -40,22 +46,26 @@
 }
 
 /* The colors for the highlight */
-.hover-back-colorV1  { color: #800000;}
-.hover-back-colorI1  { color: #cc5500;}
-.hover-back-colorS  { color: #57FB5E;}
-.hover-back-colorC1  { color: #34FB96;}
-.hover-back-colorO { color: #34FBDE;}
-.hover-back-colorV2  { color: #35FBFA;}
-.hover-back-colorI2  { color: #35F6FB;}
-.hover-back-colorC2 { color: #35EAFB;}
-.hover-back-colorH { color: #35DEFA;}
+.hover-back-color-mar  { color: #800000;}
+.hover-back-color-org  { color: #cc5500;}
+.hover-back-colorV  { color: #05B0E4;}
+.hover-back-colorI  { color: #0A7CE3;}
+.hover-back-colorS  { color: #0F4CE3;}
+.hover-back-colorC  { color: #151EE2;}
+.hover-back-colorO { color: #411AE2;}
+.hover-back-colorV2  { color: #741FE1;}
+.hover-back-colorI2  { color: #A424E0;}
+.hover-back-colorC2 { color: #D129E0;}
+.hover-back-colorH { color: #DF2EC2;}
 
 
 /* Edit all the highlighted text (HOVER) at once */
-.hover-back-colorV1:hover,
-.hover-back-colorI1:hover,
+.hover-back-color-mar:hover,
+.hover-back-color-org:hover,
+.hover-back-colorV:hover,
+.hover-back-colorI:hover,
 .hover-back-colorS:hover,
-.hover-back-colorC1:hover,
+.hover-back-colorC:hover,
 .hover-back-colorO:hover,
 .hover-back-colorV2:hover,
 .hover-back-colorI2:hover,
@@ -73,15 +83,17 @@
 }
 
 /* The colors for the highlight */
-.hover-back-colorV1:hover  { background-color: #800000;}
-.hover-back-colorI1:hover  { background-color: #cc5500;}
-.hover-back-colorS:hover  { background-color: #57FB5E;}
-.hover-back-colorC1:hover  { background-color: #34FB96;}
-.hover-back-colorO:hover { background-color: #34FBDE;}
-.hover-back-colorV2:hover  { background-color: #35FBFA;}
-.hover-back-colorI2:hover  { background-color: #35F6FB;}
-.hover-back-colorC2:hover { background-color: #35EAFB;}
-.hover-back-colorH:hover { background-color: #35DEFA;}
+.hover-back-color-mar:hover  { background-color: #800000;}
+.hover-back-color-org:hover  { background-color: #cc5500;}
+.hover-back-colorV:hover  { background-color: #05B0E4;}
+.hover-back-colorI:hover  { background-color: #0A7CE3;}
+.hover-back-colorS:hover  { background-color: #0F4CE3;}
+.hover-back-colorC:hover  { background-color: #151EE2;}
+.hover-back-colorO:hover { background-color: #411AE2;}
+.hover-back-colorV2:hover  { background-color: #741FE1;}
+.hover-back-colorI2:hover  { background-color: #A424E0;}
+.hover-back-colorC2:hover { background-color: #D129E0;}
+.hover-back-colorH:hover { background-color: #DF2EC2;}
 
 a.clean{
     /* Clean up the default CSS Styling for links */

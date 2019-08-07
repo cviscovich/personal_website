@@ -23,9 +23,9 @@ class AboutMe extends Component {
                     <div class="column">
                         <p style={{ marginBottom: "1%"}}>
                         Hi there! My name is Caroline, and I am a senior at 
-                         <span class="hover-back-colorV1"> <a class="clean" href="https://www.vt.edu/">Virginia Tech</a></span> 
+                         <span class="hover-back-color-mar"> <a class="clean" href="https://www.vt.edu/" target="_blank" rel="noopener noreferrer">Virginia Tech</a></span> 
                          in Blacksburg, VA. I am pursuing a B.S. in 
-                         <span class="hover-back-colorI1"> <a class="clean" href="https://www.ais.science.vt.edu/programs/cmda/our-program.html">Computational Modeling and Data Analytics</a></span>
+                         <span class="hover-back-color-org"> <a class="clean" href="https://www.ais.science.vt.edu/programs/cmda/our-program.html" target="_blank" rel="noopener noreferrer">Computational Modeling and Data Analytics</a></span>
                          , with minors in Computer Science and Mathematics. The Computational Modeling and Data Analytics (CMDA) program draws on 
                          expertise from three primary departments at Virginia Tech with strengths in quantitative science: 
                          Mathematics, Statistics, and Computer Science.
